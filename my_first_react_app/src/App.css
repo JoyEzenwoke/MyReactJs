@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body {
+  background-color: gray;
+  
+
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  background-color: blue;
+  border-bottom: 2px solid #2a7a2e;
+  padding-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ol, ul {
+  margin-left: 20px;
+}
+
+ol li, ul li {
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f0f0f0;
+}
+
+
+.form-fieldset {
+  border: 1px solid #aaa;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.input-field, .submit-button, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: brown;
   color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-button:hover {
+  background-color: brown;
 }
